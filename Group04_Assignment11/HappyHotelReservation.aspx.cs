@@ -9,9 +9,17 @@ namespace Group04_Assignment11
 {
     public partial class HappyHotel : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+    
+            protected void ButtonSubmit_Click(object sender, EventArgs e)
+            {
+                // Calculate the total days
+                TimeSpan totalDays = CalendarCheckOut.SelectedDate - CalendarCheckIn.SelectedDate;
+                LabelTotalDays.Text = "Total Days: " + totalDays.Days.ToString();
 
-        }
+                // Calculate the total cost (example: $100 per day)
+                decimal totalCost = totalDays.Days * 100m;
+                LabelTotalCost.Text = "Total Cost: $" + totalCost.ToString("F2");
+            }
+        
     }
 }

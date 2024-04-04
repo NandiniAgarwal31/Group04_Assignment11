@@ -23,7 +23,6 @@
             <asp:Label ID="LabelTotalDays" runat="server" Text="Total Days"></asp:Label>
             
          
-            <asp:Image ID="ImageHotel" runat="server" ImageUrl="~/path/to/your/hotel/image.jpg" />
         </div>
     </form>
 </body>
