@@ -17,7 +17,7 @@
 
            
             <asp:Button ID="ButtonSubmit" runat="server" Text="OK" OnClick="ButtonSubmit_Click" />
-            
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             
             <asp:Label ID="LabelTotalCost" runat="server" Text="Total Cost"></asp:Label>
             <asp:Label ID="LabelTotalDays" runat="server" Text="Total Days"></asp:Label>
