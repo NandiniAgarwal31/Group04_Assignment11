@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HappyHotel.aspx.cs" Inherits="Group04_Assignment11.HappyHotel" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HappyHotel.aspx.cs" Inherits="Group04_Assignment11.HappyHotel" %>
 
 <!DOCTYPE html>
 
