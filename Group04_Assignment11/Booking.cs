@@ -7,5 +7,6 @@ namespace Group04_Assignment11
 {
     public class Class1
     {
+
     }
 }
