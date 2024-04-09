@@ -51,7 +51,9 @@
         </asp:TableCell>
     </asp:TableRow>
     <asp:TableRow>
- <asp:Image ID="MyImage" runat="server" ImageUrl="https://i.pinimg.com/474x/fe/fa/d9/fefad91fbd31c9cfeb6a2777fce7852a.jpg" Width="100" Height="100" />
+        <asp:TableCell>
+ <asp:Image ID="MyImage" runat="server" ImageUrl="https://upload.wikimedia.org/wikipedia/commons/b/b4/Home_Farm_Hotel_-_geograph.org.uk_-_5714027.jpg?20231111221140" Width="200" Height="200" />
+            </asp:TableCell>
     </asp:TableRow>
 </asp:Table>
         
