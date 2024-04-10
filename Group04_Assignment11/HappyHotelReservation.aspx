@@ -11,7 +11,7 @@
         
         <div>
     
-<asp:Table ID="Table1" runat="server" BorderWidth="1px" BorderColor="Black" GridLines="None"  CellSpacing="0">
+<asp:Table ID="Table1" runat="server" BorderWidth="2px" BorderColor="Black" GridLines="None"  CellSpacing="0">
     <asp:TableRow style="background-color: #dbffa4;">
         <asp:TableCell style="font-weight: bold;">
            Happy Hotel Reservation System
@@ -52,7 +52,7 @@
     </asp:TableRow>
     <asp:TableRow>
         <asp:TableCell>
- <asp:Image ID="MyImage" runat="server" ImageUrl="https://upload.wikimedia.org/wikipedia/commons/b/b4/Home_Farm_Hotel_-_geograph.org.uk_-_5714027.jpg?20231111221140" Width="200" Height="200" />
+ <asp:Image ID="MyImage" runat="server" ImageUrl="https://upload.wikimedia.org/wikipedia/commons/4/49/Marston_Farm_Hotel_-_geograph.org.uk_-_142377.jpg" Width="200" Height="200" />
             </asp:TableCell>
     </asp:TableRow>
 </asp:Table>
